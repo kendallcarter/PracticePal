@@ -14,6 +14,19 @@
 		86A7F9A22A0F25E50029EAFC /* PracticePalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86A7F9A12A0F25E50029EAFC /* PracticePalTests.swift */; };
 		86A7F9AC2A0F25E50029EAFC /* PracticePalUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86A7F9AB2A0F25E50029EAFC /* PracticePalUITests.swift */; };
 		86A7F9AE2A0F25E50029EAFC /* PracticePalUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86A7F9AD2A0F25E50029EAFC /* PracticePalUITestsLaunchTests.swift */; };
+		86A7F9BC2A0F27130029EAFC /* Low.wav in Resources */ = {isa = PBXBuildFile; fileRef = 86A7F9BA2A0F27130029EAFC /* Low.wav */; };
+		86A7F9BD2A0F27130029EAFC /* High.wav in Resources */ = {isa = PBXBuildFile; fileRef = 86A7F9BB2A0F27130029EAFC /* High.wav */; };
+		86A7F9BF2A0F28CD0029EAFC /* VisualizerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86A7F9BE2A0F28CD0029EAFC /* VisualizerView.swift */; };
+		86A7F9C12A0F29210029EAFC /* Tuner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86A7F9C02A0F29210029EAFC /* Tuner.swift */; };
+		86A7F9C32A0F29510029EAFC /* Metronome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86A7F9C22A0F29510029EAFC /* Metronome.swift */; };
+		86A7F9C52A0F29660029EAFC /* MetronomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86A7F9C42A0F29660029EAFC /* MetronomeView.swift */; };
+		86A7F9C72A0F2A470029EAFC /* TunerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86A7F9C62A0F2A470029EAFC /* TunerModel.swift */; };
+		86A7F9CA2A0F2AD20029EAFC /* AudioKitEX in Frameworks */ = {isa = PBXBuildFile; productRef = 86A7F9C92A0F2AD20029EAFC /* AudioKitEX */; };
+		86A7F9CD2A0F2AE40029EAFC /* SoundpipeAudioKit in Frameworks */ = {isa = PBXBuildFile; productRef = 86A7F9CC2A0F2AE40029EAFC /* SoundpipeAudioKit */; };
+		86A7F9D02A0F2B050029EAFC /* AudioKitUI in Frameworks */ = {isa = PBXBuildFile; productRef = 86A7F9CF2A0F2B050029EAFC /* AudioKitUI */; };
+		86A7F9D22A0F2FB70029EAFC /* TunerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86A7F9D12A0F2FB70029EAFC /* TunerView.swift */; };
+		86A7F9D42A0F32520029EAFC /* Sampler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86A7F9D32A0F32520029EAFC /* Sampler.swift */; };
+		86A7F9D92A0F36860029EAFC /* AudioKit in Frameworks */ = {isa = PBXBuildFile; productRef = 86A7F9D82A0F36860029EAFC /* AudioKit */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +57,16 @@
 		86A7F9A72A0F25E50029EAFC /* PracticePalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PracticePalUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		86A7F9AB2A0F25E50029EAFC /* PracticePalUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticePalUITests.swift; sourceTree = "<group>"; };
 		86A7F9AD2A0F25E50029EAFC /* PracticePalUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticePalUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		86A7F9BA2A0F27130029EAFC /* Low.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Low.wav; sourceTree = "<group>"; };
+		86A7F9BB2A0F27130029EAFC /* High.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = High.wav; sourceTree = "<group>"; };
+		86A7F9BE2A0F28CD0029EAFC /* VisualizerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisualizerView.swift; sourceTree = "<group>"; };
+		86A7F9C02A0F29210029EAFC /* Tuner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tuner.swift; sourceTree = "<group>"; };
+		86A7F9C22A0F29510029EAFC /* Metronome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Metronome.swift; sourceTree = "<group>"; };
+		86A7F9C42A0F29660029EAFC /* MetronomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetronomeView.swift; sourceTree = "<group>"; };
+		86A7F9C62A0F2A470029EAFC /* TunerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TunerModel.swift; sourceTree = "<group>"; };
+		86A7F9D12A0F2FB70029EAFC /* TunerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TunerView.swift; sourceTree = "<group>"; };
+		86A7F9D32A0F32520029EAFC /* Sampler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sampler.swift; sourceTree = "<group>"; };
+		86A7F9DA2A0F36BB0029EAFC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +74,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				86A7F9CD2A0F2AE40029EAFC /* SoundpipeAudioKit in Frameworks */,
+				86A7F9D02A0F2B050029EAFC /* AudioKitUI in Frameworks */,
+				86A7F9D92A0F36860029EAFC /* AudioKit in Frameworks */,
+				86A7F9CA2A0F2AD20029EAFC /* AudioKitEX in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,10 +121,16 @@
 		86A7F98F2A0F25E40029EAFC /* PracticePal */ = {
 			isa = PBXGroup;
 			children = (
+				86A7F9DA2A0F36BB0029EAFC /* Info.plist */,
+				86A7F9D62A0F34580029EAFC /* Models */,
+				86A7F9D52A0F343E0029EAFC /* Views */,
+				86A7F9BB2A0F27130029EAFC /* High.wav */,
+				86A7F9BA2A0F27130029EAFC /* Low.wav */,
 				86A7F9902A0F25E40029EAFC /* PracticePalApp.swift */,
 				86A7F9922A0F25E40029EAFC /* ContentView.swift */,
 				86A7F9942A0F25E50029EAFC /* Assets.xcassets */,
 				86A7F9962A0F25E50029EAFC /* Preview Content */,
+				86A7F9C02A0F29210029EAFC /* Tuner.swift */,
 			);
 			path = PracticePal;
 			sourceTree = "<group>";
@@ -127,6 +160,26 @@
 			path = PracticePalUITests;
 			sourceTree = "<group>";
 		};
+		86A7F9D52A0F343E0029EAFC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				86A7F9D12A0F2FB70029EAFC /* TunerView.swift */,
+				86A7F9C42A0F29660029EAFC /* MetronomeView.swift */,
+				86A7F9BE2A0F28CD0029EAFC /* VisualizerView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		86A7F9D62A0F34580029EAFC /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				86A7F9D32A0F32520029EAFC /* Sampler.swift */,
+				86A7F9C22A0F29510029EAFC /* Metronome.swift */,
+				86A7F9C62A0F2A470029EAFC /* TunerModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,6 +196,12 @@
 			dependencies = (
 			);
 			name = PracticePal;
+			packageProductDependencies = (
+				86A7F9C92A0F2AD20029EAFC /* AudioKitEX */,
+				86A7F9CC2A0F2AE40029EAFC /* SoundpipeAudioKit */,
+				86A7F9CF2A0F2B050029EAFC /* AudioKitUI */,
+				86A7F9D82A0F36860029EAFC /* AudioKit */,
+			);
 			productName = PracticePal;
 			productReference = 86A7F98D2A0F25E40029EAFC /* PracticePal.app */;
 			productType = "com.apple.product-type.application";
@@ -190,6 +249,9 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
+				KnownAssetTags = (
+					New,
+				);
 				LastSwiftUpdateCheck = 1430;
 				LastUpgradeCheck = 1430;
 				TargetAttributes = {
@@ -215,6 +277,12 @@
 				Base,
 			);
 			mainGroup = 86A7F9842A0F25E40029EAFC;
+			packageReferences = (
+				86A7F9C82A0F2AD20029EAFC /* XCRemoteSwiftPackageReference "AudioKitEX" */,
+				86A7F9CB2A0F2AE40029EAFC /* XCRemoteSwiftPackageReference "SoundpipeAudioKit" */,
+				86A7F9CE2A0F2B050029EAFC /* XCRemoteSwiftPackageReference "AudioKitUI" */,
+				86A7F9D72A0F36860029EAFC /* XCRemoteSwiftPackageReference "AudioKit" */,
+			);
 			productRefGroup = 86A7F98E2A0F25E40029EAFC /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -231,6 +299,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				86A7F9BD2A0F27130029EAFC /* High.wav in Resources */,
+				86A7F9BC2A0F27130029EAFC /* Low.wav in Resources */,
 				86A7F9982A0F25E50029EAFC /* Preview Assets.xcassets in Resources */,
 				86A7F9952A0F25E50029EAFC /* Assets.xcassets in Resources */,
 			);
@@ -257,7 +327,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				86A7F9C32A0F29510029EAFC /* Metronome.swift in Sources */,
+				86A7F9C12A0F29210029EAFC /* Tuner.swift in Sources */,
+				86A7F9D42A0F32520029EAFC /* Sampler.swift in Sources */,
+				86A7F9C72A0F2A470029EAFC /* TunerModel.swift in Sources */,
+				86A7F9D22A0F2FB70029EAFC /* TunerView.swift in Sources */,
 				86A7F9932A0F25E40029EAFC /* ContentView.swift in Sources */,
+				86A7F9C52A0F29660029EAFC /* MetronomeView.swift in Sources */,
+				86A7F9BF2A0F28CD0029EAFC /* VisualizerView.swift in Sources */,
 				86A7F9912A0F25E40029EAFC /* PracticePalApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -414,17 +491,22 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"PracticePal/Preview Content\"";
 				DEVELOPMENT_TEAM = PZB9R5VKAK;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PracticePal/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = PracticePal;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.music";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "We use the microphone to demonstrate processing input.";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "We use Speech Recognition to demonstrate BaseTap capabilities.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -443,17 +525,22 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"PracticePal/Preview Content\"";
 				DEVELOPMENT_TEAM = PZB9R5VKAK;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PracticePal/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = PracticePal;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.music";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "We use the microphone to demonstrate processing input.";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "We use Speech Recognition to demonstrate BaseTap capabilities.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -583,6 +670,64 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		86A7F9C82A0F2AD20029EAFC /* XCRemoteSwiftPackageReference "AudioKitEX" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/AudioKit/AudioKitEX";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+		86A7F9CB2A0F2AE40029EAFC /* XCRemoteSwiftPackageReference "SoundpipeAudioKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/AudioKit/SoundpipeAudioKit";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+		86A7F9CE2A0F2B050029EAFC /* XCRemoteSwiftPackageReference "AudioKitUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/AudioKit/AudioKitUI";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.3.5;
+			};
+		};
+		86A7F9D72A0F36860029EAFC /* XCRemoteSwiftPackageReference "AudioKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/AudioKit/AudioKit/";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		86A7F9C92A0F2AD20029EAFC /* AudioKitEX */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 86A7F9C82A0F2AD20029EAFC /* XCRemoteSwiftPackageReference "AudioKitEX" */;
+			productName = AudioKitEX;
+		};
+		86A7F9CC2A0F2AE40029EAFC /* SoundpipeAudioKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 86A7F9CB2A0F2AE40029EAFC /* XCRemoteSwiftPackageReference "SoundpipeAudioKit" */;
+			productName = SoundpipeAudioKit;
+		};
+		86A7F9CF2A0F2B050029EAFC /* AudioKitUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 86A7F9CE2A0F2B050029EAFC /* XCRemoteSwiftPackageReference "AudioKitUI" */;
+			productName = AudioKitUI;
+		};
+		86A7F9D82A0F36860029EAFC /* AudioKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 86A7F9D72A0F36860029EAFC /* XCRemoteSwiftPackageReference "AudioKit" */;
+			productName = AudioKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 86A7F9852A0F25E40029EAFC /* Project object */;
 }
